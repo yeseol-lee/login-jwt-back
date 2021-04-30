@@ -25,7 +25,7 @@
   3. admin일 경우 jwt에 role: admin 정보도 포함</br>
   4. jwt미들웨어를 이용해서 admin인지 확인</br>
   5. limit, offset을 계산해서 json타입으로 정보 전송</br>
-
+ 
 ### 관리자 회원정보 조회의 검색필터
   1. 회원정보는 u_id, u_email, u_nm, u_pwd, u_mobile_no, reg_dt, mod_dt, last_login_dt가 있다</br>
   2. 조회할 데이터를 쿼리스트링의 filter값으로 넣어준다</br>
