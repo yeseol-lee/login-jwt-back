@@ -31,7 +31,7 @@
   2. 조회할 데이터를 쿼리스트링의 filter값으로 넣어준다</br>
   3. 예) u_email과 u_nm만 조회할 경우: /admin/?page=1&limit=5&filter=u_email&filter=u_nm</br>
   4. *filter값이 없으면 모든 정보를 조회한다*</br>
-  
+   
 ### 사용한 npm모듈
   1. body-parser, express, sequelize, mysql2</br>
   2. jsonwebtoken: json web token 기능 이용
