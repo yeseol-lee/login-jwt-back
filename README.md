@@ -7,7 +7,7 @@
   3. 기능: email이 중복되지 않는지 확인, tbl_user 테이블에 정보 저장</br>
   
 ### 사용자 조회 API
-  1. GET, /user</br>
+  1. GET, /user</br> 
   2. header에 x-access-token 키 값으로 json web token을 같이 보내기</br>
   3. jwt미들웨어를 이용해서 접근 가능한 지 확인</br>
   4. jwt의 u_id값을 이용해서 데이터 조회하기, 정보전송</br>
